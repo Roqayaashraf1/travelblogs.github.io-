@@ -1,0 +1,30 @@
+<div class="page d-flex">
+  <div class="sidebar bg-white p-20 p-relative">
+    <h3 class="p-relative txt-c mt-0">Seif</h3>
+    <ul class="p-0 list-none">
+      <li>
+        <a
+          href="/dashboard"
+          class="active d-flex align-center fs-14 c-black rad-6 p-10"
+        >
+          <i class="fa-regular fa-chart-bar fa-fw"></i>
+          <span class="hide-mobile">Dashboard</span>
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="/dashboard/profile"
+          class="d-flex align-center fs-14 c-black rad-6 p-10"
+        >
+          <i class="fa-regular fa-user fa-fw"></i>
+          <span class="hide-mobile">Profile</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+  <div class="content w-full">
+  <router-outlet></router-outlet>
+  </div>
+</div>

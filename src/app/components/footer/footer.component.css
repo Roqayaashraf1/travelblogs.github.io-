@@ -1,0 +1,48 @@
+/* footer */
+.footer{
+  background: #333;
+}
+.footer .box-container{
+  display:  flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.footer .box-container .box{
+  padding: 1rem 0;
+  flex: 1 1 20rem;
+}
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding: .7rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding: .7rem 0;
+  color: #eee;
+}
+.footer .box-container .box a{
+  font-size: 1.5rem;
+  padding: .7rem 0;
+  color:#e1a8a8;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.footer .box-container .box a:hover{
+  color: #0080ff;
+  text-decoration: underline;
+}
+.footer .created{
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+}
+.footer .created span{
+  color: #0080ff;
+}
